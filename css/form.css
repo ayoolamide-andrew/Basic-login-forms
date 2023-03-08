@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#page-box{
+    background: grey;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    border: 3px solid grey;
+    background: #fff;
+    width: 40%;
+    padding: 50px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    background-color: rgb(14, 3, 65);
+    border: 2px solid rgb(14, 3, 65);
+    width: 80px;
+    color: white;
+    padding: 10px;
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    background: url("../images/skiding\ .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+}
+
+.text-box{
+    width: 40%;
+    height: 100vh;
+    padding: 40px;
+} 
+
+.logo-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3rem;
+    color: rgb(109, 180, 15);
+}
+
+.text-box h1{
+    color: rgb(29, 99, 139);
+    margin-top: 5%;
+}
+
+
+.form-box input {
+   width: 100%;
+    padding: 2px;
+    font-size: 20px;
+    
+}
+
+.form-box select {
+    width: 100%;
+     padding: 2px;
+     font-size: 20px;
+     
+ }
+
+.form-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 100%;
+
+}
+
+.form-box .input-box{
+    width: 48%;
+
+}
+
+.put-box [type="textbox"]{
+    width: 185%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.log-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.log-box [type="submit"]{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.inbox [type="submit"]{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(29, 99, 139);
+    align-items: flex-end;
+}
+
+.login{
+    color:  rgb(29, 99, 139);
+    font-size: 20px
+}
+
+p a{
+    text-decoration: none;
+}
